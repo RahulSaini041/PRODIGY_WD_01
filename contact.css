@@ -1,0 +1,278 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-color: hsla(201.17647059,36.55913978%,36.47058824%,1);
+   
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: hsl(201.18deg 28.19% 44.47%);
+    color: rgb(83, 137, 212);
+    padding: 10px 0;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+}
+#navbar ul li h5{
+    margin: 0px;
+    text-align: left;
+    padding-left: 50px;
+    height: 0px;
+    color: #fff;
+    font-size: 19px;
+}
+#navbar ul li {
+    display: inline;
+
+}
+#navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#navbar ul li a:hover {
+    color:#ccd1d380;
+}
+.container {
+    margin: 20px auto;
+    background-color:hsla(201.17647059,36.55913978%,36.47058824%,1);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container #container{
+    width: 47%;
+}
+.formwrapper{
+    display: grid;
+    grid-template-areas: "form";
+}
+h1 {
+    color:white;
+    font: 40px norms-bold, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+p{
+    color: #CBEAEB;
+    font: 30px heldane-med, serif;
+    font-weight: bold;
+}
+#contactform {
+    padding: 17px;
+}
+.titlename span{
+    color: #CBEAEB;
+    font-weight: bold;
+    letter-spacing: .12rem;  
+}
+.field{
+    width: 50%;
+}
+.firstname{
+    margin-right: 40px;
+}
+.titlename .namerequired{
+    color: #263c49;
+    font-weight: normal;
+    letter-spacing: normal;
+}
+.namerequired1{
+    color: #263c49;
+    font-weight: normal;
+    padding-left: 5px;
+    letter-spacing: normal;
+}
+.idea{
+    color: #CBEAEB;
+    font-weight: bold;
+    letter-spacing: .12rem;
+}
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#form-item .name{
+    margin-bottom: 12px;
+}
+.label{
+    color: #263c49;
+    font: 16px freight-text-pro;
+    margin: 4px 0px 0px;
+    padding: 0px 0px 2px ;
+}
+input, textarea{
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    margin-bottom: 20PX;
+}
+.field1{
+    display: flex;
+    flex-direction: row;
+}
+.otheritem{
+    display: flex;
+    padding-bottom: 30px;
+}
+.otherhelp input{
+ margin: 0px;
+ width: 14px;
+ padding: 10px;
+}
+.help{
+    padding-bottom: 10px;
+}
+textarea{
+    height: 100px;
+}
+.otherhelp label{
+    width: 200px;
+    font: 16.5px heldane-mad, serif;
+    margin-left: 10px;
+    color: #CBEAEB;
+    margin-bottom: 0px;
+}
+button {
+    background-color: #CBEAEB;
+    color: #3b677f;
+    padding: 11.2911px 18.85px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+button:hover {
+    background-color: #a4dadb;
+}
+
+footer{
+    background-color:  hsl(201.18deg 32.89% 31.52%);
+    padding: 75px 0;
+    position: relative;
+    transition: opacity .5s ease;
+    z-index: 2;
+    display: block;
+}
+footer .wrapper {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+}
+footer .wrapper{
+    position: relative;
+}
+.wrapper{
+    height: 100%;
+    margin: 0 auto !important;
+    max-width: 1230px;
+}
+footer nav{
+    display: inline-block;
+    vertical-align: middle;
+}
+#menu-footer{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    margin-top: 0;
+}
+footer nav ul li{
+    margin-bottom: 10px;
+    padding: 5px 15px;
+    transition: all .25s ease;
+    color: #fff;
+    font: 18px KGHappySolid;
+    line-height: 19px;
+    text-decoration: none;
+    background-color: transparent;
+    
+}
+footer .social{
+    margin-right: 15px;
+}
+footer .social ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+footer .social ul li {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin: 0 0 0 10px;
+    transition: .3s;
+    width: 40px;
+}
+footer .social ul li a {
+    padding: 8px;
+}
+footer .social ul li i {
+    color: #000;
+    font-size: 16px;
+    padding: 15px;
+}
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+}
+i .fa::before{
+    padding: 15px;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+footer .footer{
+    border-top: 1px solid hsla(0, 0%, 100%, .55);
+    margin-top: 30px;
+    padding-top: 25px;
+    width: 100%;
+
+}
+footer .footer p{
+    margin: 0 15px;
+    opacity: .55;
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    font: 12px KGHappySolid;
+    line-height: 19px;
+}

@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    font-weight: bold;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:rgba(12, 12, 12, 0.745);
+    color: rgb(83, 137, 212);
+    padding: 10px 0;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+}
+#navbar ul li h5{
+    margin: 0px;
+    text-align: left;
+    padding-left: 50px;
+    height: 0px;
+    color:#fff;
+    font-size: 20px;
+}
+#navbar ul li {
+    display: inline;
+
+}
+
+#navbar ul li a {
+    color:#fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+    margin: 0px 15px;
+    text-transform: uppercase;
+}
+
+#navbar ul li a:hover {
+    color: #5cb7ec;
+}
+#background{
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjE4MjY3M30);
+    background-size: cover;
+    position: relative;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#background1{
+    transition: opacity .25s ease;
+}
+#maincontent{
+    display: block;
+}
+#about{
+    height: 244vh;
+    background-image: url(https://www.phocafe.co.uk/wp-content/uploads/2018/07/Our-Story-Background.jpg);
+   background-size: cover;
+ 
+   background-position: bottom left;
+   background-repeat: no-repeat;
+   text-align: center;
+}
+#about::after{
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 360px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+#about-header{
+    padding-bottom: 190px;
+    text-align: center;
+    display: block;
+    position: relative;
+}
+#white-background{
+    color: #000;
+    display: inline-block;
+    font-family: KGHappy;
+    text-align: center;
+    overflow: hidden;
+}
+#about-text{
+    animation: swipe-right-text-appear .48s cubic-bezier(.86,0,.07,1) both;
+    background-color: #fff !important;
+    font-size: 80px;
+    line-height: 96px;
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 15px;
+    white-space: nowrap;
+    height: 100%;
+   
+    
+}
+#about-revealer{
+     animation: swipe-right-text-appear .48s cubic-bezier(.86,0,.07,1) both;
+    background-color: #fff !important;
+    height: 100%;
+    width: 100%;
+}
+#about-row{
+    visibility: visible;
+    animation: fadeIn;
+    padding: 120px 0;
+    display: block;
+}
+#about-wrapper{
+    position: relative;
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1230px;
+}
+#main-image{
+    flex: 0 0 50%;
+    max-width: 50%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    width: 100%;
+    text-align: left;
+}
+.flex-end{
+    justify-content: flex-end !important;
+}
+.text-right{
+    text-align: right !important;
+}
+#about-img{
+    left: 60px;
+    transform: rotate(4deg);
+    top: -220px;
+    background-color: #fff;
+    box-shadow: none;
+    margin: 0 auto;
+    min-height: 205px;
+    overflow: hidden;
+    position: absolute;
+    width: 250px;
+    border: 3px solid #c7c7c7;
+    padding: 20px;
+}
+#about-img1{
+    left: 100px;
+    transform: rotate(5deg);
+    top: -220px;
+    background-color: #fff;
+    box-shadow: none;
+    margin: 0 auto;
+    min-height: 205px;
+    overflow: hidden;
+    position: absolute;
+    width: 250px;
+    border: 3px solid #c7c7c7;
+    padding: 20px;
+}
+#about-img2{
+    right: 0;
+    transform: rotate(-9deg);
+    bottom: -220px;
+    background-color: #fff;
+    box-shadow: none;
+    margin: 0 auto;
+    min-height: 205px;
+    overflow: hidden;
+    position: absolute;
+    width: 250px;
+    border: 3px solid #c7c7c7;
+    padding: 20px;
+    text-align: right;
+}
+#about-img3{
+    background-color: #fff;
+    box-shadow: none;
+    margin: 0 auto;
+    min-height: 215px;
+    overflow: hidden;
+    position: absolute;
+    width: 250px;
+}
+#about-rowtext{
+    background-color: #fff;
+    border: 2px solid #c7c7c7;
+    box-shadow: 10px 10px 2px 0 rgba(0, 0, 0, .05);
+    display: inline-block;
+    max-width: 525px;
+    padding: 50px 50px 30px;
+    text-align: left;
+}
+#about-rowtext p{
+    color: #787676;
+    font-family: KGHappySolid;
+    font-size: 20px;
+    line-height: 1.4444;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+#background #home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#background #home h1{
+    width: 740px; 
+    height: 120px; 
+    float: left; 
+    padding-left: 30px; 
+    clear: both; 
+    font-size: 55px;
+    color: white;
+    background-color: #463c3cc4;
+    margin-top: 310px; 
+    border-radius: 12px;
+}
+#backgroundone{
+    height: 100vh;
+    background-image: url(https://assets.nicepagecdn.com/11a8ddce/4267640/images/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg);
+    background-size: cover;
+}
+
+*.back{
+    width: 250px;
+    height: 180px;
+    position: relative;
+   
+    background-size: 300px;
+    border-radius: 12px;
+    margin: 35px 40px 10px 160px;
+    float: left;
+    padding: 5px;
+    background-position: 50% 50%;
+    color: white;
+
+}
+*.back h3{
+    position: absolute;
+    top: 50%;
+}
+#backgroundtwo{
+    background-image: url(https://assets.nicepagecdn.com/11a8ddce/4267640/images/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg);
+    
+}
+#backgroundthree{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqjmN3dgk7YJrvRAyba73JFdvJHV8CD2gFsw&s);
+}
+#backgroundfour{
+    background-image: url(https://assets.nicepagecdn.com/11a8ddce/4267640/images/italian-spaghetti-with-tomato-sauce-pan.jpg);
+}
+#backgroundfive{
+    background-image: url(https://assets.nicepagecdn.com/11a8ddce/4267640/images/high-angle-shot-vegetable-salad-white-bowl.jpg);
+}
+
+#backgroundsix{
+    background-image: url(https://assets.nicepagecdn.com/11a8ddce/4267640/images/fresh-salad-with-turkey-eggs-vegetables.jpg);
+}
+
+#backgroundseven{
+    background-image: url(https://assets.nicepagecdn.com/11a8ddce/4267640/images/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg);
+}
+#backgroundeight{
+    background-image: url(https://loveincorporated.blob.core.windows.net/contentimages/gallery/b65f7634-e4bb-4b50-81d6-d6ce1d26c535-albania_proper_pizza.jpg);
+}
+
+#backgroundnine{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVdO5uRPWPAgsP8XXfeVuhJERNgmJ2IXMt7Q&s);
+}
+
+#backgroundten{
+    background-image: url(https://img1.10bestmedia.com/Images/Photos/415086/GettyImages-1303977605_55_660x440.jpg);
+}
